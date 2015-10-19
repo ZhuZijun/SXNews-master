@@ -15,6 +15,8 @@
  */
 @property(nonatomic,copy) NSString *urlString;
 
+@property(nonatomic,copy) NSString *newString;
+
 @property (nonatomic,assign) NSInteger index;
 
 
