@@ -1,0 +1,27 @@
+//
+//  PG_MainViewController.m
+//  1031
+//
+//  Created by pangang on 15/10/31.
+//  Copyright © 2015年 pangang. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "SXNewsModel.h"
+
+@interface SXNewsCell : UITableViewCell
+
+@property(nonatomic,strong) SXNewsModel *NewsModel;
+
+
+
+/**
+ *  类方法返回可重用的id
+ */
++ (NSString *)idForRow:(SXNewsModel *)NewsModel;
+
+/**
+ *  类方法返回行高
+ */
++ (CGFloat)heightForRow:(SXNewsModel *)NewsModel;
+@end
